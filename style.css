@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.Sidebar{
+    background-color: rgb(161, 157, 157);
+    width: 220px;
+    height: 110vh;
+    font-family: 'Belanosima', sans-serif;
+}
+.Sidebar nav {
+    
+    padding: 23px;
+}
+.Sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 40px 0;
+}
+.Sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: brown; */
+    height: 85vh;
+    width: 80vw;
+    margin: 110px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 65px;
+    font-family: 'Belanosima', sans-serif;
+}
+.name{
+    font-size: 55px;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: bold;
+    color: cadetblue;
+    
+}
+.about{
+    font-size: 45px;
+    font-family: 'Mukta', sans-serif;
+}
+.moreabout{
+    font-size: 25px;
+    font-family: 'Ysabeau SC', sans-serif;
+    margin-top: 22px;
+
+}
+.button{
+    margin-top: 34px;
+
+}
+.button button{
+    padding: 16px;
+    border-radius: 24px;
+    color: #e84748;
+    background-color: darkkhaki;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+.button button:hover{
+    background-color: #e84748 ;
+    color: darkkhaki;
+
+}
+
+.devpic img{
+    height: 75vh;
+}
